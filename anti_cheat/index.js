@@ -24,16 +24,53 @@
     return _old_replace_state.apply(window.history, data);
   }
 
+  // disable the "antiCheating" in the game option settings
+  let _disable_anticheating_tries = 0;
+  let _disable_anticheating_settings = setInterval(() => {
+    const all_keys = Object.keys(document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating);
+    for (let i = 0; i < all_keys.length; i++) {
+      // make sure the value data type of the key is boolean
+      if (typeof document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating[all_keys[i]] !== "boolean")
+        return;
+
+      // set it to false
+      Object.defineProperty(document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating, all_keys[i], {
+        get() { return false }
+      })
+    }
+
+    // add 250ms to the counter
+    _disable_anticheating_tries += 250;
+
+    // clear interval if after 2.5 minutes passed to prevent lag
+    if (_disable_anticheating_tries >= 150000) {
+      _disable_anticheating_tries = 0;
+      return clearInterval(_disable_anticheating_settings);
+    }
+  }, 250);
+
   // Delete the blocking element
+  let container_modal_removal_tries = 0;
   let _removal_modaL_container = setInterval(() => {
+    // remove the warning container
     const model_container = document.getElementsByClassName("modal-container");
     if (model_container.length > 0) {
       for (const _c_el of model_container) {
         if (_c_el.querySelector(".fullscreen-exit-warning-container")) {
           _c_el.remove();
+          container_tries = 0;
           clearInterval(_removal_modaL_container);
         }
       }
+    }
+
+    // add 250ms to the counter
+    container_modal_removal_tries += 250;
+
+    // clear interval if after 2.5 minutes passed to prevent lag
+    if (container_modal_removal_tries >= 150000) {
+      container_modal_removal_tries = 0;
+      return clearInterval(_removal_modaL_container);
     }
   }, 250)
 

@@ -1,4 +1,4 @@
-# blantant
+# blatant
 > [!note]
 > - description: this script no longer works due to new API changes.
 > - usage: use the `qexc("command here")` function to load command. If you need help, use: `qexc("help")`.
