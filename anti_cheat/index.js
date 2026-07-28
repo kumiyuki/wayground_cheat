@@ -29,7 +29,7 @@
   let _disable_anticheating_settings = setInterval(() => {
     // make sure the "antiCheating" settings exist
     const anti_cheating_option = document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating;
-    if (typeof anti_cheating_option !== "object" || !Array.isArray(anti_cheating_option) && anti_cheating_option === undefined || anti_cheating_option === null)
+    if (typeof anti_cheating_option !== "object" || Array.isArray(anti_cheating_option) || anti_cheating_option === undefined || anti_cheating_option === null)
       return;
 
     // get all boolean keys and disable it
