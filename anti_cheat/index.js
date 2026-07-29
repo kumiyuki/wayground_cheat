@@ -33,7 +33,7 @@
       return;
 
     // get all boolean keys and disable it
-    const all_keys = Object.keys(document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating);
+    const all_keys = Object.keys(anti_cheating_option ?? {});
     for (let i = 0; i < all_keys.length; i++) {
       // make sure the value data type of the key is boolean
       if (typeof document.querySelector("#root")?.__vue_app__?.config?.globalProperties?.$pinia?.state?.value?.gameData?.gameOptions?.antiCheating[all_keys[i]] !== "boolean")
@@ -48,8 +48,8 @@
     // add 250ms to the counter
     _disable_anticheating_tries += 250;
 
-    // clear interval if after 2.5 minutes passed to prevent lag
-    if (_disable_anticheating_tries >= 150000) {
+    // clear interval if after 40 seconds passed to prevent lag
+    if (_disable_anticheating_tries >= 40000) {
       _disable_anticheating_tries = 0;
       return clearInterval(_disable_anticheating_settings);
     }
