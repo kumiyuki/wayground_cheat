@@ -6,6 +6,7 @@
 // @author       kaede
 // @match        https://wayground.com/join/game/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=wayground.com
+// @license      GPL-3.0
 // @grant        none
 // ==/UserScript==
 
