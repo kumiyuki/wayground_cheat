@@ -8,7 +8,8 @@ This is my own method for cheating in `wayground`, i do not update the scripts o
 
 ## installation
 > [!note]
-> most of the scripts requires you to have tampermonkey installed, please install tampermonkey if you haven't.
+> - most of the scripts requires you to have a userscript extension installed, please one if you haven't.
+> - i recommend using tampermonkey.
 
 1. install tampermonkey (if you haven't).
 2. read instructions for the script you want:
@@ -17,5 +18,5 @@ This is my own method for cheating in `wayground`, i do not update the scripts o
 - [./blatant/](./blatant/): https://github.com/kaedesuu/quizizz_cheat/blob/master/blatant/README.md
 
 # disclaimer
-The content and code in this repository are provided solely for **educational and research purposes**.
+The content and code in this repository are provided solely for **educational and research purposes**.\
 **You're 100% responsible for your own actions.** By downloading, viewing, or utilizing any code or information provided in this repository, you acknowledge and agree that the creator/author of this project is in no way liable for damages, bans, or legal consequences that may arise from misuse or misapplication.
