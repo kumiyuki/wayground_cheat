@@ -9,6 +9,7 @@
   if (window.location.href?.toString().includes("/join/pre-game")) {
     Element.prototype.requestFullscreen = () => {};
   }
+
   // It seems like they have added paste detection and web extension detection.
   const toast_content_block = ["left the tab", "right-click", "resized the window", "paste", "web extension"]; // if the toast (notification)'s content includes these, they will be ignored'
 
