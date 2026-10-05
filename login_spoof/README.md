@@ -6,7 +6,7 @@
 
 To install the script, you need to:
 1. install tampermonkey
-2. click on the raw link: https://github.com/kaedesuu/wayground_cheat/raw/refs/heads/master/login_spoof/wayground_spoof_login.user.js
+2. click on the raw link: https://github.com/kumiyuki/wayground_cheat/raw/refs/heads/master/login_spoof/wayground_spoof_login.user.js
 3. press `Install`
 
 ## structure

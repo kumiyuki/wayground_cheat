@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         quizizz_cheat
-// @namespace    https://github.com/kaedesuu/quizizz_cheat
+// @namespace    https://github.com/kumiyuki/quizizz_cheat
 // @version      2024-07-03
 // @description  this script no longer works due to new API changes.
 // @author       kaede

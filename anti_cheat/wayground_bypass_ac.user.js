@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         kaede's quizizz anti-cheat bypass (bypass fullscreen)
-// @namespace    https://github.com/kaedesuu/quizizz_cheat
+// @namespace    https://github.com/kumiyuki/quizizz_cheat
 // @version      2026-07-29
 // @description  bypass wayground's "anti-cheating"
 // @author       kaede

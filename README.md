@@ -13,9 +13,9 @@ This is my own method for cheating in `wayground`, i do not update the scripts o
 
 1. install tampermonkey (if you haven't).
 2. read instructions for the script you want:
-- [./anti_cheat/](./anti_cheat/): https://github.com/kaedesuu/quizizz_cheat/blob/master/anti_cheat/README.md
-- [./login_spoof/](./login_spoof/): https://github.com/kaedesuu/quizizz_cheat/blob/master/login_spoof/README.md
-- [./blatant/](./blatant/): https://github.com/kaedesuu/quizizz_cheat/blob/master/blatant/README.md
+- [./anti_cheat/](./anti_cheat/): https://github.com/kumiyuki/quizizz_cheat/blob/master/anti_cheat/README.md
+- [./login_spoof/](./login_spoof/): https://github.com/kumiyuki/quizizz_cheat/blob/master/login_spoof/README.md
+- [./blatant/](./blatant/): https://github.com/kumiyuki/quizizz_cheat/blob/master/blatant/README.md
 
 # disclaimer
 The content and code in this repository are provided solely for **educational and research purposes**.\

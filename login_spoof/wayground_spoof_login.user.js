@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         wayground_spoof_login
-// @namespace    https://github.com/kaedesuu/quizizz_cheat
+// @namespace    https://github.com/kumiyuki/quizizz_cheat
 // @version      2024-09-03
 // @description  fake joining the room as someone's username.
 // @author       kaede
