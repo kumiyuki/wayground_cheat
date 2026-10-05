@@ -5,7 +5,7 @@
 
 To install the script, you need to:
 1. install tampermonkey
-2. click on the raw link: https://github.com/kaedesuu/wayground_cheat/raw/refs/heads/master/anti_cheat/wayground_bypass_ac.user.js
+2. click on the raw link: https://github.com/kumiyuki/wayground_cheat/raw/refs/heads/master/anti_cheat/wayground_bypass_ac.user.js
 3. press `Install`
 
 ## structure
